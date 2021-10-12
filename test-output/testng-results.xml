@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21398" started-at="2021-10-12T03:57:57Z" finished-at="2021-10-12T03:58:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21398" started-at="2021-10-12T03:57:57Z" finished-at="2021-10-12T03:58:18Z">
+      <class name="qaautomation.evermos.AppTest">
+        <test-method status="PASS" signature="createChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@7334aada]" name="createChromeDriver" is-config="true" duration-ms="14419" started-at="2021-10-12T03:57:57Z" finished-at="2021-10-12T03:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method status="PASS" signature="testNavMenuKontakKami()[pri:0, instance:qaautomation.evermos.AppTest@7334aada]" name="testNavMenuKontakKami" duration-ms="6635" started-at="2021-10-12T03:58:11Z" description="Nav Menu Kontak Kami is working" finished-at="2021-10-12T03:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavMenuKontakKami -->
+        <test-method status="PASS" signature="quitChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@7334aada]" name="quitChromeDriver" is-config="true" duration-ms="288" started-at="2021-10-12T03:58:18Z" finished-at="2021-10-12T03:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+      </class> <!-- qaautomation.evermos.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
