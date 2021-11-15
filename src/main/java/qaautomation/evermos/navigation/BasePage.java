@@ -1,9 +1,12 @@
 package qaautomation.evermos.navigation;
 
+import java.util.List;
+
 //import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -54,23 +57,26 @@ public class BasePage {
 		WebElement element = driver.get().findElement(locator);
 		element.click();
 	}
-//	protected final void selectFromLi(By locator, By locator1, String searchText) {
-//		explicitWait.get().until(ExpectedConditions.elementToBeClickable(locator));
-//		WebElement dropdown = driver.get().findElement(locator);
-//		//dropdown.click(); // assuming you have to click the "dropdown" to open it
-//		List<WebElement> options = dropdown.findElements(locator1);
-//		for (WebElement li : options)
-//		{
-//		    if (li.getText().equals(searchText))
-//		    {
-//		        li.click(); // click the desired option
-//		        break;
-//		    }
-//		}
-//	}
 	protected final void clickAndWaitByModal(By locator) {
 		WebElement element = driver.get().findElement(locator);
 		JavascriptExecutor js = (JavascriptExecutor) driver.get();  
 		js.executeScript("arguments[0].click();", element);
+	}
+	protected final String getLink(By locator) {
+		explicitWait.get().until(ExpectedConditions.elementToBeClickable(locator));
+		WebElement element = driver.get().findElement(locator);
+		return element.getAttribute("href");
+	}
+	protected final void searchText(By locator, String text) {
+		explicitWait.get().until(ExpectedConditions.elementToBeClickable(locator));
+		WebElement element = driver.get().findElement(locator);
+		element.sendKeys(text);
+		element.sendKeys(Keys.RETURN);
+	}
+	protected final List<WebElement> getList(By locator) {
+		explicitWait.get().until(ExpectedConditions.elementToBeClickable(locator));
+		List<WebElement> listData = 
+				driver.get().findElements(locator);
+		return listData;
 	}
 }

@@ -7,7 +7,7 @@
         <methods>
           <include name="createChromeDriver"/>
           <include name="quitChromeDriver"/>
-          <include name="testLoginPage"/>
+          <include name="searchProduct"/>
         </methods>
       </class> <!-- qaautomation.evermos.AppTest -->
     </classes>

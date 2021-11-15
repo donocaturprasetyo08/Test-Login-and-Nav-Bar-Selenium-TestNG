@@ -1,21 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21398" started-at="2021-10-12T03:57:57Z" finished-at="2021-10-12T03:58:18Z">
+  <suite name="Default suite" duration-ms="204776" started-at="2021-11-15T06:59:37Z" finished-at="2021-11-15T07:03:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21398" started-at="2021-10-12T03:57:57Z" finished-at="2021-10-12T03:58:18Z">
+    <test name="Default test" duration-ms="204776" started-at="2021-11-15T06:59:37Z" finished-at="2021-11-15T07:03:01Z">
       <class name="qaautomation.evermos.AppTest">
-        <test-method status="PASS" signature="createChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@7334aada]" name="createChromeDriver" is-config="true" duration-ms="14419" started-at="2021-10-12T03:57:57Z" finished-at="2021-10-12T03:58:11Z">
+        <test-method status="PASS" signature="createChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="createChromeDriver" is-config="true" duration-ms="20122" started-at="2021-11-15T06:59:37Z" finished-at="2021-11-15T06:59:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createChromeDriver -->
-        <test-method status="PASS" signature="testNavMenuKontakKami()[pri:0, instance:qaautomation.evermos.AppTest@7334aada]" name="testNavMenuKontakKami" duration-ms="6635" started-at="2021-10-12T03:58:11Z" description="Nav Menu Kontak Kami is working" finished-at="2021-10-12T03:58:18Z">
+        <test-method status="PASS" signature="getUrlDynamicToko()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="getUrlDynamicToko" duration-ms="35197" started-at="2021-11-15T06:59:57Z" description="salin link toko berhasil" finished-at="2021-11-15T07:00:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNavMenuKontakKami -->
-        <test-method status="PASS" signature="quitChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@7334aada]" name="quitChromeDriver" is-config="true" duration-ms="288" started-at="2021-10-12T03:58:18Z" finished-at="2021-10-12T03:58:18Z">
+        </test-method> <!-- getUrlDynamicToko -->
+        <test-method status="PASS" signature="quitChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="quitChromeDriver" is-config="true" duration-ms="376" started-at="2021-11-15T07:00:32Z" finished-at="2021-11-15T07:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method status="PASS" signature="createChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="createChromeDriver" is-config="true" duration-ms="11031" started-at="2021-11-15T07:00:32Z" finished-at="2021-11-15T07:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="searchProduct" duration-ms="30305" started-at="2021-11-15T07:00:43Z" description="search product by keyword berhasil" finished-at="2021-11-15T07:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="quitChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="quitChromeDriver" is-config="true" duration-ms="497" started-at="2021-11-15T07:01:14Z" finished-at="2021-11-15T07:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method status="PASS" signature="createChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="createChromeDriver" is-config="true" duration-ms="13453" started-at="2021-11-15T07:01:14Z" finished-at="2021-11-15T07:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method status="PASS" signature="testAkunPage()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="testAkunPage" duration-ms="23859" started-at="2021-11-15T07:01:28Z" description="Akun page is working" finished-at="2021-11-15T07:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAkunPage -->
+        <test-method status="PASS" signature="quitChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="quitChromeDriver" is-config="true" duration-ms="526" started-at="2021-11-15T07:01:51Z" finished-at="2021-11-15T07:01:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method status="PASS" signature="createChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="createChromeDriver" is-config="true" duration-ms="12721" started-at="2021-11-15T07:01:52Z" finished-at="2021-11-15T07:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method status="PASS" signature="testCategoryPage()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="testCategoryPage" duration-ms="20959" started-at="2021-11-15T07:02:05Z" description="Category Page is working" finished-at="2021-11-15T07:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoryPage -->
+        <test-method status="PASS" signature="quitChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="quitChromeDriver" is-config="true" duration-ms="587" started-at="2021-11-15T07:02:26Z" finished-at="2021-11-15T07:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method status="PASS" signature="createChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="createChromeDriver" is-config="true" duration-ms="12498" started-at="2021-11-15T07:02:26Z" finished-at="2021-11-15T07:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method status="PASS" signature="testTransaksiPage()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="testTransaksiPage" duration-ms="21897" started-at="2021-11-15T07:02:39Z" description="Transaction Page is working" finished-at="2021-11-15T07:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransaksiPage -->
+        <test-method status="PASS" signature="quitChromeDriver()[pri:0, instance:qaautomation.evermos.AppTest@384ad17b]" name="quitChromeDriver" is-config="true" duration-ms="655" started-at="2021-11-15T07:03:01Z" finished-at="2021-11-15T07:03:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitChromeDriver -->
